@@ -14,11 +14,14 @@
       "youtube": "https://www.youtube.com/@niteshraya"
     }
   },
-
   "current": {
     "status": "open_to_work",
-    "focus": "Learning C# in-depth,Leetcode and building fun projects",
-    "learning": ["C# in-depth", "DSA", "Game Devleopment"],
+    "focus": "Learning C# in-depth,Leetcode and building fun projects and writing shitty games",
+    "learning": [
+      "C# in-depth",
+      "DSA",
+      "Game Devleopment"
+    ],
     "working_on": [
       {
         "title": "Basic classic games",
@@ -27,14 +30,36 @@
       }
     ]
   },
-
   "projects": [
+    {
+      "id": "snake-game",
+      "title": "Snake Game",
+      "description": "A very simple snake game writen in C# using rayllib",
+      "tech": [
+        "C#",
+        "Raylib"
+      ],
+      "tags": [
+        "Game"
+      ],
+      "links": {
+        "github": "https://github.com/Nitesh-mint/ClassicSnakeGame",
+        "live": ""
+      },
+      "status": "completed",
+      "featured": true,
+      "year": 2026
+    },
     {
       "id": "vibe-gif-search",
       "title": "AI Vibe Gif Search",
       "description": "Wanted a gif search tool that understood my feelings, didn't find so i buiit one!",
-      "tech": ["JavaScript"],
-      "tags": ["extension"],
+      "tech": [
+        "JavaScript"
+      ],
+      "tags": [
+        "extension"
+      ],
       "links": {
         "github": "https://github.com/Nitesh-mint/Vibe-GIF-Search",
         "live": "https://addons.mozilla.org/en-US/firefox/addon/ai-vibe-gif-search/"
@@ -47,8 +72,13 @@
       "id": "my-drive",
       "title": "My Drive",
       "description": "Searching and finding the best ride as a rider in Indrive was time consuming , so i built a tool for me that does it!",
-      "tech": ["Kotlin", "Accessibility"],
-      "tags": ["Android App"],
+      "tech": [
+        "Kotlin",
+        "Accessibility"
+      ],
+      "tags": [
+        "Android App"
+      ],
       "links": {
         "github": "https://github.com/Nitesh-mint/MyDrive",
         "live": ""
@@ -56,13 +86,40 @@
       "status": "in_progress",
       "featured": true,
       "year": 2026
-    },
+    }
   ],
   "skills": {
-  "Languages": ["C#", "JavaScript", "TypeScript", "HTML", "CSS", "SQL"],
-  "Frameworks": [".NET", "ASP.NET Core", "Entity Framework Core", "React"],
-  "Tools": ["Git", "GitHub", "Visual Studio", "VS Code", "Postman"],
-  "Databases": ["SQL Server", "MySQL"],
-  "Concepts": ["OOP", "REST API", "LINQ", "Data Structures & Algorithms", "LeetCode"]
-}
+    "Languages": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "Frameworks": [
+      ".NET",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "React"
+    ],
+    "Tools": [
+      "Git",
+      "GitHub",
+      "Visual Studio",
+      "VS Code",
+      "Postman"
+    ],
+    "Databases": [
+      "SQL Server",
+      "MySQL"
+    ],
+    "Concepts": [
+      "OOP",
+      "REST API",
+      "LINQ",
+      "Data Structures & Algorithms",
+      "LeetCode"
+    ]
+  }
 }
