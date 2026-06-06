@@ -95,6 +95,9 @@
         "C",
         "DSA"
       ],
+       "tags": [
+        "C"
+      ],
       "links": {
         "github": "https://github.com/Nitesh-mint/c-but-dangerous",
         "live": ""
