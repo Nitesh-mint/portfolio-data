@@ -86,6 +86,22 @@
       "status": "in_progress",
       "featured": true,
       "year": 2026
+    },
+    {
+      "id": "dsa-c",
+      "title": "Data structure in C",
+      "description": "This repo contains the data structure implement from scratch in C",
+      "tech": [
+        "C",
+        "DSA"
+      ],
+      "links": {
+        "github": "https://github.com/Nitesh-mint/c-but-dangerous",
+        "live": ""
+      },
+      "status": "in_progress",
+      "featured": true,
+      "year": 2026
     }
   ],
   "skills": {
